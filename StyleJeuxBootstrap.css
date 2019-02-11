@@ -1,0 +1,135 @@
+#corps
+{
+    text-align: center;
+}
+#conteneur1
+{
+    display: flex;
+    width: 51.5%;
+    margin: auto;
+    border-top: 1px black solid;
+    border-right: 1px black solid;
+    border-left: 1px black solid;
+    z-index: 1;
+    margin-bottom: 0%;
+   
+}
+.col-xs-12{
+    height: 50px;
+    background-color: white;
+}
+#conteneur1 div:nth-child(1)
+{
+    
+    height: 240px;
+    background-color: blueviolet;
+    
+}
+#conteneur1 div:nth-child(2)
+{
+    
+    height: 50px;
+    border-bottom:  1px black solid;
+    background-color: blueviolet;
+}
+#conteneur1 div:nth-child(3)
+{
+    
+    height: 240px;
+    background-color: blueviolet;
+}
+#start
+{
+    border: 1px solid black;
+    font-size: 30px;
+    background-color: forestgreen;
+    
+    
+}
+#end
+{
+    border: 1px solid black;
+    font-size: 30px;
+    background-color: orangered;   
+}
+#parag 
+{
+     margin-left: 24.5%; 
+    margin-bottom: 0%;
+}
+.note
+{
+    width: 595px;
+    margin: auto;
+}
+/*----------------------------------------*/
+#conteneur2
+{
+    display: flex;
+    width: 51.5%;
+    margin: auto;
+    border-bottom: 1px black solid;
+    z-index: 2;
+}
+#conteneur2 div:nth-child(1)
+{
+    width: 400px;
+    height: 50px;
+    background-color: blueviolet;
+    border-left: 1px black solid;
+    margin-top: 0px;
+}
+#conteneur2 div:nth-child(2)
+{
+    width: 6%;
+    height: 242px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 47%;
+    top: 217px;   
+}
+#conteneur2 div:nth-child(3)
+{
+    width: 400px;
+    height: 50px;
+    background-color: blueviolet;
+    border-right: 1px black solid;
+    margin-top:0px;
+    
+}
+@media screen and (max-width:400px)
+{
+    #conteneur2 div:nth-child(2)
+    {
+        width: 6%;
+        height: 242px;
+        background-color: blueviolet;
+        position: absolute;
+        left: 46%;
+        top: 217px;   
+    }
+}
+@media screen and (max-width: 300px)
+{
+    #conteneur2 div:nth-child(2)
+    {
+        width: 6%;
+        height: 242px;
+        background-color: blueviolet;
+        position: absolute;
+        left: 45%;
+        top: 217px;   
+    }
+}
+@media screen and (max-width:271px)
+{
+    #conteneur2 div:nth-child(2)
+    {
+        width: 6%;
+        height: 242px;
+        background-color: blueviolet;
+        position: absolute;
+        left: 44%;
+        top: 250px;   
+    } 
+}
